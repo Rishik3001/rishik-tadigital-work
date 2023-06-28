@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/miniproject.css">
+</head>
+<body>
+    <!--header part--> 
+    <header>
+        <div class="head">
+            <h2 class="mobile-view"><i class="fa-solid fa-phone"></i>NEED HELP ?</h2>
+            <ul class="head-ul">
+                <li class="wish-list"><span>WISHLIST</span><i class="fa-regular fa-heart"></i><span id="valueIncrease">0</span> </li>
+
+                <li class="cart"><span>CART</span><i class="fa-solid fa-bag-shopping"></i><span id="cartIncrease">0</span></li>
+                <li><i class="fa-regular fa-user"></i> Rishik</li>
+            </ul>
+            
+                <!-- <ul class="mobile-view">
+                    <li><i class="fa-regular fa-user"></i>Sign in</li>
+                    <li class="wish-list"><i class="fa-regular fa-heart"></i></li>
+                    <li class="cart"><i class="fa-solid fa-bag-shopping"></i></li>
+                </ul> -->
+        </div>
+        <!-- <div class="mobile-head">
+            <h2><i class="fa-solid fa-phone"></i>NEED HELP ?</h2>
+            <ul>
+                <li><i class="fa-regular fa-user"></i>Sign in</li>
+                <li class="wish-list"><i class="fa-regular fa-heart"></i></li>
+                <li class="cart"><i class="fa-solid fa-bag-shopping"></i></li>
+            </ul>
+        </div> -->
+        <div class="nav-bar">
+            <img src="./assests/icons/Krayalogo.svg" alt="logo of website">
+            <div class="nav-list">
+                <ul>
+                    <li><a href="">PHONE</a></li>
+                    <li><a href="">TELEVISION</a></li>
+                    <li><a href="">REFRIGERATOR</a></li>
+                    <li><a href="">LAPTOP</a></li>
+                    <li><a href="">WASHING MACHINE</a></li>
+                    <li><a href="">DOWNLOADS</a></li>
+                </ul>
+            </div>
+            <div class="search"><img src="./assests/icons/search.png" alt="search-button"></div>
+        </div>
+        <div class="mobile-filter">
+            <div><i class="fa-solid fa-filter"></i> Sort by</div>
+            <div><i class="fa-solid fa-filter"></i> Filter</div>
+        </div>
+    </header>
+    <!--content part--> 
+    <div class="content">
+        <div class="results-nav">
+            <div>HOME / MOBILES</div>
+            <div class="show-result">Showing 1 – 40 of 90 results for “honor”</div>
+            <div class="sort">
+                <span class="sortby">Sort By</span> 
+                <a href="#">
+                    <span id="sortrating" >Rating</span>
+                 </a>
+                <a href="#">
+                    <span id="low-high">Price low-High</span></a>
+                <a href="#"> 
+                    <span id="new-phone">Newest First</span>
+                </a>
+            </div>
+        </div>
+         <div class="main-content">
+            <div class="filter">
+                <div class="filter-content">FILTERS<a href="" id="clear">CLEAR ALL</a></div>
+                <div class="filter-content-price">
+                    <div class="filter-content togglef accordian-toggle">Price<a id="scroll" href="#"><i class="fa-solid fa-chevron-down"></i></a>
+                    </div>
+                    <div class="price-input togglehide ">
+                        <div class="price-range">
+                            <div class="field">
+                                <span ></span>
+                                <input type="number" class="input-min" value="2500">
+                            </div>
+                            <div class="separator">-</div>
+                            <div class="field">
+                                <span></span>
+                                <input type="number" class="input-max" value="7500">
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <div class="progress"></div>
+                          </div>
+                        <div class="range-input">
+                            <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+                            <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-content-brand">
+                    <div class="brand togglef accordian-toggle">Brand<a href="#"><i class="fa-solid fa-chevron-down"></i></a></div>
+                    <div class="filter-brand togglehide " id="toggle">
+                        <!-- <div><input type="checkbox" name="mi" id="mi"><span>xiaomi</span></div>
+                        <div><input type="checkbox" name="apple" id="apple"><span>apple</span></div>
+                        <div><input type="checkbox" name="pixel" id="pixel"><span>pixel</span></div> -->
+                    </div>
+                </div>
+
+                <div class="filter-content">Battery Capacity<a href="#"><i class="fa-solid fa-chevron-down"></i></a></div>
+                
+    
+                <div class="filter-content">Screen Size<a href="#"><i class="fa-solid fa-chevron-down"></i></a></div>
+    
+                <div class="filter-content">RAM<a href="#"><i class="fa-solid fa-chevron-down"></i></a></div>
+            </div>
+            <!------rendering tiles from json data----------------------------------------------------------------------> 
+            <div id="phones">
+                <!-- <div class="cards">
+                    <div class="images"> <img src="/assests/images/mix.png" alt=""></div> 
+                    <p>Mi Mix 2 (Black, 128 GB)</p>
+                    <span><i class="fa-regular fa-star"></i></span>
+                    <span><i class="fa-regular fa-star"></i></span>
+                    <span><i class="fa-regular fa-star"></i></span>
+                    <span><i class="fa-regular fa-star"></i></span>
+                    <span><i class="fa-regular fa-star"></i></span>
+                    <span>(9,303)</span>
+                    <div>
+                        <span>$129.99</span>
+                        <span>$149.99</span>
+                        <span>30% off</span>
+                    </div>
+                </div> -->
+            </div>
+         </div>
+    </div>
+    <!--footer part--> 
+    <footer>
+        <div class="footer-content">
+            <span class="page-up"><a href="#top"><i class="fa-solid fa-chevron-up"></i></a></span>
+            <div class="footerone">
+            <div class="touch">
+                <div>
+                    <h2>LET’S STAY IN TOUCH</h2>
+                    <h4>Get updates on sales specials and more</h4>
+                </div>
+                <div class="mail">
+                    <div>Email address</div>
+                    <div class="subscribe">SUBCRIBE</div>
+                </div>
+            </div>
+            <div class="follow">
+                <div>
+                    <h2>FOLLOW KRAYA. <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-instagram"></i></h2>
+                </div>
+                <h4>We want to hear from you</h4>
+            </div>
+        </div>
+        <div class="footertwo">
+            <div class="about">
+                <ul>
+                    <li>ABOUT</li>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>News</li>
+                </ul>
+            </div>
+            <div class="support">
+                <ul>
+                    <li>SUPPORT</li>
+                    <li>Payment</li>
+                    <li>Shipping</li>
+                    <li>Cancellation & Returns</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+            <div class="policy">
+                <ul>
+                    <li>POLICY</li>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                    <li>Intellectual Property</li>
+                    <li>Sitemap</li>
+                    <li>Security</li>
+                </ul>
+            </div>
+            <div class="mail-us">
+                <h3>MAIL US</h3>
+                <p>17187 N. Laurel Park Dr., Ste. 110 Livonia, MI 48152 USA</p>
+            </div>
+            <div>
+                <div class="contact">
+                    <h2>1800 123 4567</h2>
+                    <h3 class="service">Service hours: 09:00-21:00</h3>
+                    <h3 class="chat">CHAT SUPPORT</h3>
+                    <h3>PAYMENT METHODS</h3>
+                </div>
+                <div class="pay">
+                    <img src="./assests/icons/payment.png" alt="payment-ways">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright © 2010 - 2018 commerce factory. All Rights Reserved
+        </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="module" src="./script/script.js">
+    </script>
+</body>
+</html>

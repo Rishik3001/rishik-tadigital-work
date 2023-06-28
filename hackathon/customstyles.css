@@ -1,0 +1,276 @@
+/* filter part styling */
+
+.container_heading {
+    margin: 2rem;
+}
+
+form {
+    margin-top: 0 1rem;
+}
+
+.filter_heading {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    margin-left: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    background-color: black;
+    box-shadow: 0px 0px 10px 6px #463f5f1a;
+}
+
+.filters {
+    overflow-y: scroll;
+    height: 815px;
+}
+
+.labels {
+    visibility: hidden;
+}
+
+.red {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 6px #463f5f1a;
+    margin: 2rem;
+    background-color: red;
+}
+
+.white {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 10px 6px #463f5f1a;
+    margin: 2rem;
+    background-color: white;
+}
+
+.black {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 6px #463f5f1a;
+    margin: 2rem;
+    background-color: black;
+}
+
+.alloy_img {
+    margin: 2rem;
+}
+
+/* product area styling which contains the images */
+
+.carColorChange {
+    padding: 7rem 7rem 0 7rem;
+}
+
+.total_price {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.total_build_price {
+    float: right;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.buy {
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.price_span {
+    border: 1px solid black;
+    padding: 0.8rem;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    font-size: 26px;
+}
+
+/* media queries for making page responsive */
+
+@media only screen and (max-width: 900px) {
+
+    .container_columns {
+        display: block;
+        gap: 14rem;
+        background-color: white;
+    }
+
+    .container_columns_1 {
+        height: 100px;
+    }
+
+    .carColorChange {
+        padding: 8rem 1rem;
+        width: 94%;
+    }
+
+    .filters {
+        overflow-y: scroll;
+        width: 820px;
+    }
+
+    form {
+        display: flex;
+    }
+
+    .total_build_price {
+        float: none;
+        margin-top: 5px;
+    }
+    .total_price {
+        font-size: 35px;
+        font-weight: 800;
+        
+        top: 42rem;
+        left: 1rem;
+    }
+
+    .buy {
+       
+        top: 44rem;
+        left: 25rem;
+        background-color: black;
+        height: 50px;
+        width: 200px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .total_price_build_div {
+       
+        top: 46rem;
+        left: 25rem;
+    }
+}
+@media only screen and (max-width: 450px) {
+
+    .container_columns {
+        display: block;
+        gap: 14rem;
+        background-color: white;
+    }
+
+    .container_columns_1 {
+        height: 100px;
+    }
+
+    .carColorChange {
+        padding: 4rem 1rem;
+        width: 94%;
+    }
+
+    .filters {
+        overflow-y: scroll;
+        width: 365px;
+    }
+
+    form {
+        display: flex;
+    }
+
+    .total_price {
+        font-size: 35px;
+        font-weight: 800;
+       
+        top: 21rem;
+        left: 1rem;
+    }
+
+    .buy {
+        
+        top: 28rem;
+        left: 6rem;
+        background-color: black;
+        height: 50px;
+        width: 200px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .total_price_build_div {
+        
+        top: 30rem;
+        left: 6rem;
+    }
+    .price_span {
+        border: 1px solid black;
+        padding: 0.8rem;
+        background-color: black;
+        color: white;
+        font-weight: 100;
+        font-size: 26px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1550px) {
+
+    .container_columns {
+        display: flex;
+        gap: 4rem;
+        background-color: white;
+    }
+
+    .container_columns_1 {
+        height: 100px;
+    }
+
+    .form {
+        margin-top: 0 1rem;
+    }
+
+    .carColorChange {
+        padding: 7rem 1rem;
+        width: 80%;
+    }
+
+    .filters {
+        overflow-y: scroll;
+        height: 597px;
+    }
+
+    .total_price {
+        font-size: 35px;
+        font-weight: 800;
+       
+        top: 26rem;
+        left: 15rem;
+    }
+
+    .buy {
+       
+        top: 28rem;
+        left: 35rem;
+        background-color: black;
+        height: 50px;
+        width: 200px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .total_price_build_div {
+        
+        top: 29.5rem;
+        left: 35rem;
+    }
+
+}
+/* @media only screen and (max-width: 1550px) {
+
+    .container,
+    .main_header_right,
+    .main_header_left,
+    .navbar {
+        display: none;
+    }
+} */

@@ -1,0 +1,74 @@
+[
+        {
+            "id":1,
+            "productImage" : "./assests/images/pixel6a.png",
+            "name" : "Mi Mix 2 (Black, 128 GB)",
+            "rating":4,
+            "totarating": "(9,303)",
+            "price":200,
+            "originalprice": "$149.99",
+            "offer":"30% off",
+            "brand":"xiaomi",
+            "date":"11-30-2010"
+        },
+        {
+            "id":2,
+            "productImage" : "./assests/images/minote.png",
+            "name" : "Mi note 11 (Black, 128 GB)",
+            "rating":2,
+            "totarating": "(9,303)",
+            "price":250,
+            "originalprice":"$149.99",
+            "offer":"30% off",
+            "brand":"xiaomi",
+            "date":"01-25-2018"
+        },
+        {
+            "id":3,
+            "productImage" : "./assests/images/note.png",
+            "name" : "Mi note 12 (Black, 128 GB)",
+            "rating":4,
+            "totarating": "(9,303)",
+            "price":300,
+            "originalprice":"$149.99",
+            "offer":"30% off",
+            "brand":"xiaomi",
+            "date":"10-22-2019"
+        },
+        {
+            "id":4,
+            "productImage" : "./assests/images/pixel6a.png",
+            "name" : "pixel 6a (Black, 128 GB)",
+            "rating":3,
+            "totarating": "(9,303)",
+            "price":700,
+            "originalprice":"$149.99",
+            "offer":"30% off",
+            "brand":"google",
+            "date":"09-15-2016"
+        },
+        {
+            "id":5,
+            "productImage" : "./assests/images/pixel4a.png",
+            "name" : "pixel 4a (Black, 128 GB)",
+            "rating":4,
+            "totarating": "(9,303)",
+            "price":600,
+            "originalprice":"$149.99",
+            "offer":"30% off",
+            "brand":"google",
+            "date":"11-30-2021"
+        },
+        {
+            "id":6,
+            "productImage" : "./assests/images/xr.png",
+            "name" : "iphone XR (Black, 128 GB)",
+            "rating":1,
+            "totarating": "(9,303)",
+            "price":500,
+            "originalprice":"$149.99",
+            "offer":"30% off",
+            "brand":"apple",
+            "date":"12-30-2020"
+        }
+]

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="customstyles.css">
+    <title>Customization Page</title>
+</head>
+
+<body>
+     <!-- Header part -->
+    <header>
+        <nav>
+            <img src="./assets/images/logo.png" alt="logo of the page">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">vehicles</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--  this is the main area where you the content is present -->
+    <main>
+        <div class="container_">
+            <div class="container_columns">
+                <div class="container_columns_1">
+                    <div class="filter-section">
+                        <!-- this is the filter part for the selection -->
+                        <div class="filters">
+                            <form action="#">
+
+                                <p class="filter_heading">SEAT COVERS</p>
+                                
+                                <label><input type="radio" class="radio_button labels" name="seat-cover" value="black"><span><img class="alloy_img"
+                                            src="./images/seat-cover-temp1.png" alt=""></span></label>
+                                <br>
+                                <label><input type="radio" class="radio_button labels" name="seat-cover" value="white"><span><img class="alloy_img"
+                                            src="./images/seat-cover-temp2.png" alt=""></span></label>
+                                <br>
+                        
+                                
+                                <p class="filter_heading">SOLID PAINT</p>
+                                
+                                <label><input type="radio" class="radio_button labels" checked="true " name="color" value="white"><span
+                                        class=" white"></span></label>
+                                <br>
+                                <label><input type="radio" class="radio_button labels" name="color" value="black"><span class=" black"></span></label>
+                                <br>
+                                
+
+                                <p class="filter_heading">ALLOYS</p>
+                                
+                                <label><input type="radio" class="radio_button labels" name="alloy" value="alloy1"><span><img class="alloy_img"
+                                            src="./images/alloy1.png" alt=""></span></label>
+                                <br>
+                                <label><input type="radio" class="radio_button labels" name="alloy" value="alloy2"><span><img class="alloy_img"
+                                            src="./images/alloy2.png" alt=""></span></label>
+                                <br>
+                    
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- here based on selections in filter area the images are displayed -->
+                <div class="container_columns_2" id="mycars">
+                    <div class="customised_car">
+                        <img src="" alt="customized car" id="selected-car" class="carColorChange">
+                    </div>
+                    <div class="total_price_div">
+                        <p class="total_price" id="total_price"></p>
+                        <p class="total_price"></p>
+                    </div>
+
+                    <div>
+                        <button class="buy" id="buy">BUY</button>
+                        <div class="total_price_build_div">
+                            <p class="total_build_price" id="total_build_price"></p>
+                            <p class="total_build_price"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer part -->
+    <footer>
+        <h2>Follow Mercedes-Benz</h2>
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+        <div class="copyright">
+            <ul>
+                <li><a id="footer-logo" href=""><img src="./assets/images/logo.png" alt=""></a></li>
+                <li><a href="">Mercedes-Benz</a></li>
+                <li><a href="">Copyright © 2023,USA,LLC</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="script1.js"></script>
+</body>
+
+</html>

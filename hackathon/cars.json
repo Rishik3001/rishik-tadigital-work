@@ -1,0 +1,99 @@
+[
+    {
+        "name": "New Mercedes C Class",
+        "description": "The classic proportions and tensed muscle tone of a sport sedan envelop a spacious digital cockpit.",
+        "image": "./images/merc.webp",
+        "baseimage": "./images/merc-base.png",
+        "basePrice": 44000,
+        "seat": {
+            "white": {
+                "image": "./images/cover3.png",
+                "price": 2000
+            },
+            "black": {
+                "image": "./images/cover1.png",
+                "price": 2500
+            }
+        },
+        "color": {
+            "white": {
+                "basePrice": 44000,
+                "image": "./images/merc-white.png",
+                "alloy": {
+                    "alloy1": {
+                        "image": "./images/merc-white-alloy1.png",
+                        "price": 5000
+                    },
+                    "alloy2": {
+                        "image": "./images/merc-white-alloy2.png",
+                        "price": 6000
+                    }
+                }
+            },
+            "black": {
+                "basePrice": 44000,
+                "image": "./images/merc-black.png",
+                "alloy": {
+                    "alloy1": {
+                        "image": "./images/merc-black-alloy1.png",
+                        "price": 5000
+                    },
+                    "alloy2": {
+                        "image": "./images/merc-black-alloy2.png",
+                        "price": 6000
+                    }
+                    
+                }
+            }
+            
+        }
+    },
+    {
+        "name": "Mercedes G Class",
+        "description": "The luxury SUV that started the segment continues to lead the way. Roomy and refined, it's also agile and aerodynamic.",
+        "image": "./images/iris.png",
+        "baseimage": "./images/mercG-base.png",
+        "basePrice": 44000,
+        "seat": {
+            "white": {
+                "image": "./images/cover3.png",
+                "price": 2000
+            },
+            "black": {
+                "image": "./images/cover1.png",
+                "price": 2500
+            }
+        },
+        "color": {
+            "white": {
+                "basePrice": 44000,
+                "image": "./images/mercG-white.png",
+                "alloy": {
+                    "alloy1": {
+                        "image": "./images/mercG-white-alloy1.png",
+                        "price": 5000
+                    },
+                    "alloy2": {
+                        "image": "./images/mercG-white-alloy2.png",
+                        "price": 6000
+                    }
+                }
+            },
+            "black": {
+                "basePrice": 44000,
+                "image": "./images/mercG-black.png",
+                "alloy": {
+                    "alloy1": {
+                        "image": "./images/mercG-black-alloy1.png",
+                        "price": 5000
+                    },
+                    "alloy2": {
+                        "image": "./images/mercG-black-alloy2.png",
+                        "price": 6000
+                    }
+                }
+            }
+            
+        }
+    }
+]
